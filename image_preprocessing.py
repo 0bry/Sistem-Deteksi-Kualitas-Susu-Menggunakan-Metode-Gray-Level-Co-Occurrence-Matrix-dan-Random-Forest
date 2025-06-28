@@ -4,7 +4,7 @@ from pathlib import Path
 
 def process_images():
     input_dir = "data/raw_data_cropped"
-    output_dir = "data/processed_data"
+    output_dir = "data/preprocessed_data"
     
     os.makedirs(output_dir, exist_ok=True)
 

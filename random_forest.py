@@ -7,7 +7,6 @@ import joblib
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
-from datetime import datetime
 
 def train_random_forest(): 
     data_path = "features/glcm_features_distance_4_angle_135.csv"

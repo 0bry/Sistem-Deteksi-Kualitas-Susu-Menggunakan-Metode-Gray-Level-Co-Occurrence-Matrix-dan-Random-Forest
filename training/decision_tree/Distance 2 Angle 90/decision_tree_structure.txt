@@ -1,0 +1,247 @@
+|--- dissimilarity <= 2.20
+|   |--- energy <= 0.20
+|   |   |--- contrast <= 12.99
+|   |   |   |--- class: 2
+|   |   |--- contrast >  12.99
+|   |   |   |--- class: 1
+|   |--- energy >  0.20
+|   |   |--- homogeneity <= 0.61
+|   |   |   |--- homogeneity <= 0.60
+|   |   |   |   |--- energy <= 0.22
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- energy >  0.22
+|   |   |   |   |   |--- homogeneity <= 0.59
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- homogeneity >  0.59
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- homogeneity >  0.60
+|   |   |   |   |--- class: 2
+|   |   |--- homogeneity >  0.61
+|   |   |   |--- correlation <= 0.92
+|   |   |   |   |--- dissimilarity <= 1.59
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- dissimilarity >  1.59
+|   |   |   |   |   |--- homogeneity <= 0.65
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- homogeneity >  0.65
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |--- correlation >  0.92
+|   |   |   |   |--- class: 1
+|--- dissimilarity >  2.20
+|   |--- homogeneity <= 0.31
+|   |   |--- homogeneity <= 0.29
+|   |   |   |--- homogeneity <= 0.27
+|   |   |   |   |--- class: 3
+|   |   |   |--- homogeneity >  0.27
+|   |   |   |   |--- dissimilarity <= 6.03
+|   |   |   |   |   |--- class: 3
+|   |   |   |   |--- dissimilarity >  6.03
+|   |   |   |   |   |--- correlation <= 0.89
+|   |   |   |   |   |   |--- correlation <= 0.88
+|   |   |   |   |   |   |   |--- dissimilarity <= 6.35
+|   |   |   |   |   |   |   |   |--- energy <= 0.11
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- energy >  0.11
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- dissimilarity >  6.35
+|   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- correlation >  0.88
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- correlation >  0.89
+|   |   |   |   |   |   |--- class: 3
+|   |   |--- homogeneity >  0.29
+|   |   |   |--- energy <= 0.10
+|   |   |   |   |--- class: 2
+|   |   |   |--- energy >  0.10
+|   |   |   |   |--- contrast <= 78.93
+|   |   |   |   |   |--- correlation <= 0.86
+|   |   |   |   |   |   |--- dissimilarity <= 5.35
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- dissimilarity >  5.35
+|   |   |   |   |   |   |   |--- energy <= 0.12
+|   |   |   |   |   |   |   |   |--- energy <= 0.12
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- energy >  0.12
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- energy >  0.12
+|   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- correlation >  0.86
+|   |   |   |   |   |   |--- contrast <= 50.11
+|   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- contrast >  50.11
+|   |   |   |   |   |   |   |--- correlation <= 0.87
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- correlation >  0.87
+|   |   |   |   |   |   |   |   |--- homogeneity <= 0.30
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- homogeneity >  0.30
+|   |   |   |   |   |   |   |   |   |--- correlation <= 0.89
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |--- correlation >  0.89
+|   |   |   |   |   |   |   |   |   |   |--- homogeneity <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- homogeneity >  0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |--- contrast >  78.93
+|   |   |   |   |   |--- class: 2
+|   |--- homogeneity >  0.31
+|   |   |--- correlation <= 0.91
+|   |   |   |--- correlation <= 0.85
+|   |   |   |   |--- contrast <= 40.19
+|   |   |   |   |   |--- energy <= 0.16
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- energy >  0.16
+|   |   |   |   |   |   |--- dissimilarity <= 4.17
+|   |   |   |   |   |   |   |--- contrast <= 29.70
+|   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |--- contrast >  29.70
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- dissimilarity >  4.17
+|   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |--- contrast >  40.19
+|   |   |   |   |   |--- homogeneity <= 0.32
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- homogeneity >  0.32
+|   |   |   |   |   |   |--- contrast <= 52.70
+|   |   |   |   |   |   |   |--- homogeneity <= 0.34
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- homogeneity >  0.34
+|   |   |   |   |   |   |   |   |--- contrast <= 51.76
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- contrast >  51.76
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- contrast >  52.70
+|   |   |   |   |   |   |   |--- class: 3
+|   |   |   |--- correlation >  0.85
+|   |   |   |   |--- homogeneity <= 0.33
+|   |   |   |   |   |--- energy <= 0.13
+|   |   |   |   |   |   |--- correlation <= 0.90
+|   |   |   |   |   |   |   |--- energy <= 0.11
+|   |   |   |   |   |   |   |   |--- correlation <= 0.90
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- correlation >  0.90
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- energy >  0.11
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- correlation >  0.90
+|   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- energy >  0.13
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |--- homogeneity >  0.33
+|   |   |   |   |   |--- homogeneity <= 0.38
+|   |   |   |   |   |   |--- energy <= 0.12
+|   |   |   |   |   |   |   |--- correlation <= 0.90
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- correlation >  0.90
+|   |   |   |   |   |   |   |   |--- energy <= 0.11
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- energy >  0.11
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- energy >  0.12
+|   |   |   |   |   |   |   |--- contrast <= 56.18
+|   |   |   |   |   |   |   |   |--- energy <= 0.15
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- dissimilarity <= 4.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- dissimilarity >  4.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- energy >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- energy >  0.15
+|   |   |   |   |   |   |   |   |   |--- correlation <= 0.86
+|   |   |   |   |   |   |   |   |   |   |--- contrast <= 42.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- contrast >  42.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- correlation >  0.86
+|   |   |   |   |   |   |   |   |   |   |--- homogeneity <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- homogeneity >  0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |--- contrast >  56.18
+|   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- homogeneity >  0.38
+|   |   |   |   |   |   |--- contrast <= 32.51
+|   |   |   |   |   |   |   |--- correlation <= 0.87
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- correlation >  0.87
+|   |   |   |   |   |   |   |   |--- energy <= 0.21
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.17
+|   |   |   |   |   |   |   |   |   |   |--- contrast <= 29.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- contrast >  29.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- energy >  0.17
+|   |   |   |   |   |   |   |   |   |   |--- contrast <= 24.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- contrast >  24.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- energy >  0.21
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- contrast >  32.51
+|   |   |   |   |   |   |   |--- correlation <= 0.91
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- correlation >  0.91
+|   |   |   |   |   |   |   |   |--- dissimilarity <= 4.32
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- dissimilarity >  4.32
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |--- correlation >  0.91
+|   |   |   |--- contrast <= 13.51
+|   |   |   |   |--- homogeneity <= 0.54
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- homogeneity >  0.54
+|   |   |   |   |   |--- class: 2
+|   |   |   |--- contrast >  13.51
+|   |   |   |   |--- homogeneity <= 0.37
+|   |   |   |   |   |--- contrast <= 42.37
+|   |   |   |   |   |   |--- correlation <= 0.93
+|   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- correlation >  0.93
+|   |   |   |   |   |   |   |--- energy <= 0.11
+|   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |--- energy >  0.11
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- contrast >  42.37
+|   |   |   |   |   |   |--- homogeneity <= 0.34
+|   |   |   |   |   |   |   |--- homogeneity <= 0.33
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- homogeneity >  0.33
+|   |   |   |   |   |   |   |   |--- contrast <= 54.65
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- contrast >  54.65
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- homogeneity >  0.34
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- homogeneity >  0.37
+|   |   |   |   |   |--- energy <= 0.14
+|   |   |   |   |   |   |--- homogeneity <= 0.41
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- homogeneity >  0.41
+|   |   |   |   |   |   |   |--- dissimilarity <= 3.76
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- dissimilarity >  3.76
+|   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- energy >  0.14
+|   |   |   |   |   |   |--- homogeneity <= 0.47
+|   |   |   |   |   |   |   |--- contrast <= 21.79
+|   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |--- contrast >  21.79
+|   |   |   |   |   |   |   |   |--- correlation <= 0.95
+|   |   |   |   |   |   |   |   |   |--- dissimilarity <= 3.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- dissimilarity >  3.47
+|   |   |   |   |   |   |   |   |   |   |--- contrast <= 26.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- contrast >  26.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- correlation >  0.95
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- homogeneity >  0.47
+|   |   |   |   |   |   |   |--- energy <= 0.19
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- energy >  0.19
+|   |   |   |   |   |   |   |   |--- energy <= 0.20
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- energy >  0.20
+|   |   |   |   |   |   |   |   |   |--- class: 2

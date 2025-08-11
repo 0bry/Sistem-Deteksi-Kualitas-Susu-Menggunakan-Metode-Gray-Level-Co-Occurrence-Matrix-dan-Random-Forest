@@ -7,6 +7,7 @@ import joblib
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+import time
 
 def train_random_forest(): 
     data_path = "features/glcm_features_distance_4_angle_135.csv"
@@ -29,7 +30,11 @@ def train_random_forest():
         class_weight=None,
         random_state=42
     )
+    
+    training_start_time = time.time()
     rf_model.fit(X_train, y_train)
+    training_end_time = time.time()
+    training_time = training_end_time - training_start_time
     
     y_pred = rf_model.predict(X_test)
     
@@ -41,6 +46,7 @@ def train_random_forest():
     print(report)
     print("\nConfusion Matrix:")
     print(cm)
+    print(f"\nTraining Time: {training_time:.4f} seconds")
     
     os.makedirs('training', exist_ok=True)
     
@@ -66,6 +72,7 @@ def train_random_forest():
         f.write("\n\nConfusion Matrix:\n")
         f.write(str(cm))
         f.write(f"\n\nAccuracy: {accuracy:.4f}\n")
+        f.write(f"Training Time: {training_time:.4f} seconds\n")
     
     return rf_model, accuracy, cm
 

@@ -1,7 +1,7 @@
 # Sistem-Deteksi-Kualitas-Susu-Menggunakan-Metode-Gray-Level-Co-Occurrence-Matrix-dan-Random-Forest
 Data dan kode ini digunakan dalam pengembangan sistem deteksi kualitas susu berbasis metode Gray Level Co-Occurrence Matrix (GLCM) dan Random Forest untuk mengklasifikasi citra susu berdasarkan teksturnya.
 
-Random Forest Accuracy Results
+##Random Forest Results
 | Tree Count | Distance | Angle | Accuracy | F1-Score | Precision | Recall |
 |------------|----------|-------|----------|----------|-----------|--------|
 | **100**    | **1**    | 0     | 0.7376   | 0.7300   | 0.7300    | 0.7400 |
@@ -70,7 +70,7 @@ Random Forest Accuracy Results
 |            |          | 90    | 0.7871   | 0.7800   | 0.7800    | 0.7900 |
 
 
-Decision Tree Accuracy Results
+##Decision Tree Results
 | Distance | Angle | Accuracy | F1-Score | Precision | Recall |
 |----------|-------|----------|----------|-----------|--------|
 | **1**    | 0     | 0.6634   | 0.6600   | 0.6600    | 0.6600 |

@@ -1,6 +1,35 @@
 # Sistem-Deteksi-Kualitas-Susu-Menggunakan-Metode-Gray-Level-Co-Occurrence-Matrix-dan-Random-Forest
 Data dan kode ini digunakan dalam pengembangan sistem deteksi kualitas susu berbasis metode Gray Level Co-Occurrence Matrix (GLCM) dan Random Forest untuk mengklasifikasi citra susu berdasarkan teksturnya.
 
+## Instalasi
+
+Versi Python yang direkomendasikan: 3.10 atau 3.11
+
+Windows (PowerShell)
+
+```powershell
+python -m venv milk_qual
+.\milk_qual\Scripts\Activate.ps1
+python -m pip install -U pip
+pip install -r requirements.txt
+```
+
+Linux / Raspberry Pi (Terminal)
+
+```bash
+python3 -m venv milk_qual
+source milk_qual/bin/activate
+pip install -U pip
+pip install -r requirements.txt
+# Khusus Raspberry Pi (untuk tombol & layar I2C)
+pip install RPi.GPIO RPLCD smbus2
+```
+
+Catatan
+- requirements.txt sudah memuat paket inti untuk training/evaluasi (numpy, pandas, scikit-learn, scikit-image, opencv-python, matplotlib, seaborn, joblib).
+- Pada lingkungan headless, Anda bisa menggunakan opencv-python-headless sebagai pengganti opencv-python.
+- Pastikan I2C diaktifkan pada Raspberry Pi jika menggunakan LCD I2C.
+
 ## Random Forest Results
 | Tree Count | Distance | Angle | Accuracy | F1-Score | Precision | Recall |
 |------------|----------|-------|----------|----------|-----------|--------|
